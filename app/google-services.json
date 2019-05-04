@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "972898118386",
+    "firebase_url": "https://kuponiarz-v1.firebaseio.com",
+    "project_id": "kuponiarz-v1",
+    "storage_bucket": "kuponiarz-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972898118386:android:f187111a87906eb6",
+        "android_client_info": {
+          "package_name": "pl.zerhaz.kuponiarz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972898118386-in909q3sjuskcs8hu7i6mhdlv8ju4dso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3yGtUjzNTEGmV8n0FEfR_pp6bA6N-Dbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

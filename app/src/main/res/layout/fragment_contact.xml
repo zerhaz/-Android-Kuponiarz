@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+
+    <FrameLayout
+        android:id="@+id/contact_frame_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/logo_main" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/contact_frame_logo"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp">
+
+        <TextView
+            android:id="@+id/text_view_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:drawableTop="@drawable/round_location_on_white_24dp"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:text="ul. Przykładowa 5/10 Miasto"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentGrey"
+            android:textSize="18sp"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/text_view_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@+id/text_view_adress"
+            android:layout_centerHorizontal="true"
+            android:autoLink="phone"
+            android:drawableTop="@drawable/round_phone_white_24dp"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:text="@string/contact_fragment_phone"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentGrey"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_email"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_below="@+id/text_view_phone"
+            android:layout_centerHorizontal="true"
+            android:autoLink="email"
+            android:drawableTop="@drawable/round_mail_outline_white_24dp"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:text="@string/contact_fragment_email"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentGrey"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_seeMore"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/text_view_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:paddingTop="0dp"
+            android:text="@string/contact_fragment_seeMore"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_website"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/text_view_seeMore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:autoLink="web"
+            android:paddingTop="0dp"
+            android:text="@string/contact_fragment_website"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_go_to_policy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/policy_shape"
+            android:onClick="openPolicyButton"
+            android:text="!"
+            android:textColor="#eeeeee"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

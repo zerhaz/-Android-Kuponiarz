@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kuponiarz</string>
+    <string name="title_home">Start</string>
+    <string name="title_settings">Ustawienia</string>
+    <string name="title_contact">Kontakt</string>
+    <string name="mainActivityText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</string>
+    <string name="couponsActivityLabel">Dostępne promocje</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="contact_fragment_email">office@lorem-ipsum.com</string>
+    <string name="contact_fragment_phone">+96 225 252 355</string>
+    <string name="contact_fragment_seeMore">Odwiedź także:</string>
+    <string name="contact_fragment_website">lorem-ipsum.pl</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="80dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:padding="22dp"
+            android:src="@drawable/logo_main" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_check_coupons"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        android:onClick="goToCoupons"
+        android:text="Zobacz ofertę specjalną"
+        android:textColor="#eeeeee"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/button_check_coupons"
+        android:layout_marginTop="80dp"
+        android:padding="25dp"
+        android:text="@string/mainActivityText"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
